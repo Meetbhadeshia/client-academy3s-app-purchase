@@ -1,0 +1,9 @@
+.correct-answer {
+    background-color: #139613;
+    color: white
+}
+
+.false-answer {
+    background-color: #e62020;
+    color: white
+}

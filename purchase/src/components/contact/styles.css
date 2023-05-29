@@ -1,0 +1,85 @@
+.main-container-contact {
+    padding: 100px;
+}
+
+.left-contact-com {
+    padding: 40px 30px;
+    background-color: #F4F5FA;
+    border-radius: 10px;
+}
+
+.right-contact-com {
+    padding-left: 35px;
+}
+
+.heading-individual-contact {
+    color: #0F1216 !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    margin: 0 0 8px !important;
+}
+
+.image-icon-contact {
+    width: 63px;
+    height: 63px;
+    margin-right: 25px
+}
+
+.subText-heading-contact {
+    color: #4D5765
+}
+
+.contact-component {
+    display: flex;
+}
+
+.diff-detail-box {
+    display: flex;
+    padding-bottom: 20px
+}
+
+.diff-detail-box:nth-last-child(odd) {
+    padding-bottom: 0;
+}
+
+.five-inputs-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-input-contact {
+    background-color: #f5f8fd;
+    border: 2px solid #F5F8FD;
+    border-radius: 6px;
+    padding: 20px 30px;
+    margin: 10px;
+    width: 47%
+}
+
+.five-inputs-contact .single-input-contact:focus {
+    outline: 2px solid #03A1C6;
+}
+
+@media (max-width: 600px) {
+    .contact-component {
+        flex-direction: column;
+    }
+
+    .main-container-contact {
+        padding: 0 0 30px;
+    }
+
+    .single-input-contact {
+        width: 100%
+    }
+
+    .right-contact-com {
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .single-input-contact {
+        width: 100%
+    }
+}

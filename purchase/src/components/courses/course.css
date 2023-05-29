@@ -1,0 +1,148 @@
+.courseInner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.course-wrapper {
+    width: 46%;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+.course-heading h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 40px 0 50px;
+    padding-top: 0;
+    color: #00306e;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+}
+
+.course-wrapper-inner {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(15, 18, 22, 0.1);
+}
+
+.course-image-sec img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-image-sec {
+    position: relative;
+}
+
+.course-image-sec a {
+    background: #3270fc;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 4px 9px 7px;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+}
+
+.course-content {
+    padding: 30px 38px 20px 35px;
+}
+
+.course-content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.course-content ul li {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.course-content ul li svg {
+    margin-right: 10px;
+    width: 20px;
+}
+
+svg.feather-star {
+    color: #ffa439;
+}
+
+h4.title {
+    color: #0f1216;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+}
+
+.leader {
+    color: #5b5f64;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-family: "Source Sans Pro";
+}
+
+.leader img {
+    height: 30px;
+    margin-right: 12px;
+}
+
+ul.priceSec {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0 0;
+    margin: 20px 0 0;
+    border-top: 1px solid #eee;
+}
+
+ul.priceSec li {
+    align-items: center;
+    color: #5b5f64;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 25px;
+    font-family: "Source Sans Pro";
+}
+
+ul.priceSec li.price {
+    color: #0f1216;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+}
+
+@media (max-width: 991px) {
+    .course-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .courseInner {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .course-image-sec a {
+        /* right: 45px; */
+    }
+}
+
+@media (max-width: 580px) {
+    .course-image-sec a {
+        /* right: 22px; */
+    }
+}

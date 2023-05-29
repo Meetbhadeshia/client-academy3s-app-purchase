@@ -1,0 +1,190 @@
+.profile {
+    padding: 120px 0 90px;
+}
+
+.profile-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-intro {
+    display: flex;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+    align-items: center;
+    border-bottom: 1px solid #e8eaf0;
+}
+
+.profile-intro li {
+    padding: 0 60px 0 0;
+
+}
+
+.label {
+    color: #0f1216;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: "Source Sans Pro";
+}
+
+.intro-text {
+    color: #5b5f64;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+.intro-icons {
+    display: flex;
+}
+
+.intro-icons img {
+    margin: 0 6px 0 0;
+}
+
+.profile-image-sec {
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.profile-content {
+    width: 66.66%;
+    padding: 0 10px;
+}
+
+h3.heading {
+    color: #0f1216;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 26px;
+    font-family: "Source Sans Pro";
+}
+
+p.text {
+    margin: 0 0 26px;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: "Source Sans Pro";
+}
+
+.smallCards {
+    display: flex;
+}
+
+.card {
+    padding: 0 10px;
+    width: 33.33%;
+}
+
+.card-inner {
+    border: 1px solid rgba(0, 48, 110, 0.1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.counter {
+    color: #0f1216;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0 0 5px;
+    font-family: "Source Sans Pro";
+}
+
+.card-text {
+    margin: 0;
+    font-family: "Source Sans Pro";
+    text-transform: capitalize;
+}
+
+.card-inner .icon img {
+    margin: 0 15px 0 0;
+}
+
+.follow .follow-btn {
+    background: #3270fc;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    max-width: 356px;
+    padding: 8px 25px;
+    text-align: center;
+    width: 100%;
+    font-family: "Source Sans Pro";
+}
+
+@media(max-width:1199px) {
+    .profile-intro li {
+        padding: 0 20px 0 0;
+    }
+
+    .label {
+        font-size: 15px;
+    }
+
+    .card-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:991px) {
+    .profile-inner {
+        flex-direction: column;
+    }
+
+    .profile-content {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .smallCards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:767px) {
+    .profile-intro {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .profile-intro li {
+        margin: 16px 0 0;
+    }
+
+    .intro-icons {
+        margin-top: 5px;
+    }
+
+    .profile-content {
+        padding: 0;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    .profile-image-sec {
+        width: 100%;
+        padding: 0;
+    }
+
+    .profile {
+        padding: 0 0 15px 0
+    }
+}

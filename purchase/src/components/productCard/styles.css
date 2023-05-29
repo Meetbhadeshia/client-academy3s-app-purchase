@@ -1,0 +1,22 @@
+.main-product-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* padding: 10% 0; */
+}
+
+/* mobile */
+@media (max-width:600px) {
+    .main-product-div {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px
+    }
+}
+
+/* tablet */
+@media (min-width:600px) and (max-width:900px) {
+    .main-product-div {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,43 @@
+h1{
+    background-color: aquamarine;
+}
+.react-pdf__Page__annotations{
+    height: 10px !important;
+}
+
+.react-pdf__Page__textContent.textLayer{
+    display: none;
+}
+.react-pdf__Page__canvas{
+    width: 95vw !important;
+    border-radius: 10px;
+    /* box-shadow: 5px 4px 10px rgb(140, 140, 140), -6px -5px 14px rgb(140, 140, 140), 6px 5px 14px rgb(140, 140, 140); */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+@media only screen and (min-width: 1198px) {
+
+    .react-pdf__Page__canvas{
+        width: 50vw !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .react-pdf__Page__canvas{
+     
+        height: 45vh !important;
+    }
+   
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .react-pdf__Page__canvas{
+     
+        height: 35vh !important;
+    }
+   
+  }
